@@ -1,0 +1,35 @@
+.page {
+  max-width: 1280px;
+  padding-top: 28px;
+  padding-bottom: 24px;
+  -webkit-font-smoothing: antialiased;
+  background-color: #2a2c2f;
+  margin: 0 auto;
+  position: relative;
+  font-family: Inter;
+  color: #ffffff;
+  margin:0 auto;
+
+}
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+    margin:0 auto;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+    margin:0 auto;
+
+  }
+}
+@media screen and (max-width: 384px) {
+  .page {
+    padding-top: 16px;
+    max-width: 384px;
+    margin:0 auto;
+
+  }
+}

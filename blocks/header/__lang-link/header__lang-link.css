@@ -1,0 +1,16 @@
+.header__lang-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #ffffff;
+  transition: opacity 0.2s linear;
+}
+.header__lang-link:hover {
+  opacity: .6;
+  text-decoration: underline;
+}
+

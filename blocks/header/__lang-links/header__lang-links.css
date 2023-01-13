@@ -1,0 +1,11 @@
+.header__lang-links {
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.header__lang-links a:nth-of-type(2) {
+  text-decoration-line: none;
+  margin-left: 18px;
+}
