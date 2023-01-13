@@ -1,5 +1,4 @@
 .cover__overlay {
-  display: block;
   width: 1184px;
   margin: 0 auto;
   height: 740px;
@@ -12,25 +11,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .cover__overlay  {
-
-    max-width:1024px;
+  .cover__overlay {
+    max-width: 1024px;
     max-height: 640px;
   }
 }
 @media screen and (max-width: 768px) {
-  .cover__overlay  {
-
-    max-width:768px;
+  .cover__overlay {
+    max-width: 768px;
     max-height: 480px;
-
   }
 }
 @media screen and (max-width: 320px) {
   .cover__overlay {
-
-    width:320px;
+    width: 320px;
     max-height: 200px;
-
   }
 }
