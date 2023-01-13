@@ -1,4 +1,4 @@
-.place__website__text__paragraph {
+.place__paragraph {
   font-family: "Inter";
   max-width: 460px;
   display: inline-block;
@@ -8,13 +8,17 @@
   font-size: 18px;
   line-height: 163%;
   color: #ffffff;
+  margin-bottom: 26px;
 }
-.place__website__text__paragraph:nth-of-type(2) {
-  margin-top: 26px;
-  margin-bottom: 0;
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 0 16px;
+  }
 }
 @media screen and (max-width:320px){
-  .place__website__text__paragraph{
+  .place__paragraph{
   width:calc(100% - 32px);
   margin-left: 16px;}
 }
