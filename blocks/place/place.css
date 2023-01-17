@@ -33,8 +33,13 @@
     margin: 44px auto 0 auto;
     column-gap: 28px;
     row-gap: 48px;
-
-}}
+}
+.place:nth-of-type(4){
+  margin: 42px auto 0 auto;
+}
+.place:nth-of-type(5){
+  margin: 22px auto 0 auto;}
+}
 @media screen and (max-width: 384px) {
   .place {
     grid-template-columns: repeat(1, 320px);
