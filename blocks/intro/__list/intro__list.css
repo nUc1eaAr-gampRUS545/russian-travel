@@ -8,7 +8,7 @@
   color: #ffffff;
   padding-top:34px;
   padding-bottom: 92px;
-  padding-left: 48px;
+  padding-left: 0px;
 }
 @media screen and (max-width:1024px) {
   .intro__list {
