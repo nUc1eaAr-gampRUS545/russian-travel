@@ -3,8 +3,10 @@
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: .9;
   color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 0px;
 }
 @media screen and (max-width: 1024px) {
   .intro__paragraph {
@@ -19,7 +21,7 @@
 }
 @media screen and (max-width: 320px) {
   .intro__paragraph {
-    max-width: calc(100% - 32px);
-    margin:0 auto;
+    max-width: 100%;
+    margin:0;
   }
 }

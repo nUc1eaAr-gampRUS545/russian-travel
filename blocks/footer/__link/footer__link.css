@@ -14,3 +14,12 @@
   transform: scale(1.05);
   opacity: 0.6;
 }
+@media screen and (max-width: 320px) {
+  .footer__link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+  }
+}

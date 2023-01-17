@@ -8,21 +8,26 @@
   color: #ffffff;
   padding-top:34px;
   padding-bottom: 92px;
+  padding-left: 48px;
+}
+@media screen and (max-width:1024px) {
+  .intro__list {
+    padding: 34px 0px 89px 0px;
+  }
 }
 @media screen and (max-width:768px) {
   .intro__list {
     max-width:288px;
     padding-top:34px;
     padding-bottom: 88px;
+    padding-left: 24px;
   }
 
 }
 @media screen and (max-width:320px) {
   .intro__list {
     max-width:288px;
-    margin: 0 auto;
-    padding-top:34px;
-    padding-bottom: 64px;
+    padding:34px 16px 64px 16px;
   }
 
 }
