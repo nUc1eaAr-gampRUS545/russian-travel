@@ -22,7 +22,7 @@
 }
 @media screen and (max-width: 320px) {
   .lead__title {
-    max-width: calc(100% - 2 * 35px);
+    max-width:291px;
     font-family: "Inter";
     font-style: normal;
     margin: 0 16px;

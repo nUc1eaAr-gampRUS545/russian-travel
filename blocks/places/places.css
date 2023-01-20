@@ -1,22 +1,23 @@
 .places {
-  width:calc(100% - 2*148px);
+  width: 980px;
   margin:92px auto;
 }
 @media screen and (max-width: 1024px) {
   .places  {
     grid-template-columns: repeat(3, 1fr);
-    width:calc(100% - 2*48px);
+    width: 925px;
   }
 }
 @media screen and (max-width: 768px) {
   .places {
-    width:calc(100% - 2*24px);
+    width: 718px;
     margin:88px auto -29px auto;
 
   }
 }
 @media screen and (max-width: 320px) {
   .places {
+    width: 320px;
     margin:92px 0;
   }
 }
