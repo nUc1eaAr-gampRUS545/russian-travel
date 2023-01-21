@@ -1,6 +1,5 @@
 
 .lead__subtitle {
-  width: 640px;
   margin: 0 auto;
   font-family: "Inter";
   font-style: normal;
@@ -10,10 +9,24 @@
   text-align: center;
   color: #ffffff;
   margin-top: 32px;
+  max-width:50%;
 }
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    width:640px;
+    max-width: calc(100% - 2*160px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    max-width: calc(100% - 128px);
+  }
+}
+@media screen and (max-width: 480px) {
+  .lead__subtitle {
+    font-size: 16px;
+    max-width: calc(100% - 32px);
+    line-height: 125%;
+    margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -24,6 +37,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
-    margin-top: 16px;
+    margin: 16px auto 0 auto;
   }
 }

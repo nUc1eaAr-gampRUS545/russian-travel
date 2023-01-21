@@ -9,7 +9,6 @@
   box-sizing: border-box;
   max-width: 440px;
   text-align: left;
-  width:100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,7 +18,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 42px;
 line-height: 110%;
-width:328px;
+width: 328px;
 
   }
 }
@@ -33,5 +32,5 @@ width:328px;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    margin-bottom: 27px;}
+    margin-bottom: 32px;}
 }

@@ -12,23 +12,32 @@
 @media screen and (max-width: 1024px) {
   .intro__title {
     margin: 0;
+    padding-left: 48px;
   }
 }
 @media screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
-    margin: 0 24px;
+    margin: 0 0 0 24px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .intro__title {
+    max-width: 251px;
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0;
   }
 }
 @media screen and (max-width: 320px) {
   .intro__title {
     margin: 0 16px;
     max-width: 251px;
-    font-family: "Inter";
-    font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 110%;
+    padding: 0;
 
   }
 }

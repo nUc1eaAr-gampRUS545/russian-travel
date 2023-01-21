@@ -12,9 +12,18 @@
     max-width: 560px;
   }
 }
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 480px) {
+  .cover__link {
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cover__link {
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 320px) {
   .cover__link {
     max-width: 320px;
-
   }
 }

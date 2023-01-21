@@ -1,6 +1,6 @@
 .place__paragraph {
   font-family: "Inter";
-  width: 480px;
+  max-width: 480px;
   display: inline-block;
   margin: 0;
   font-style: normal;
@@ -12,20 +12,26 @@
 }
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    width: 453px;
+    max-width: 453px;
   }
 }
 @media screen and (max-width:768px){
   .place__paragraph{
-    width: 350px;
+    max-width: 350px;
     font-size: 16px;
     line-height: 163%;
     margin-bottom: 25px;
   }
 }
+@media screen and (max-width:480px){
+  .place__paragraph{
+  max-width:250px;
+  padding: 0 16px;
+  }
+}
 @media screen and (max-width:320px){
   .place__paragraph{
-  width:calc(100% - 32px);
+  max-width:100%;
   padding: 0 16px;
   }
 }

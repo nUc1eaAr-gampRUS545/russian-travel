@@ -1,10 +1,11 @@
 .cover__backgraund {
   margin: 0 auto;
   background-image: url(../../../images/cover-trains.jpg);
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
+  max-height: 740px;
   object-fit: cover;
   background-size: cover;
+  height: auto;
 }
 .cover__backgraund:hover .cover__overlay {
   transition: 1s linear;
@@ -14,18 +15,24 @@
 @media screen and (max-width: 1024px) {
   .cover__backgraund  {
     max-width:1024px;
-    max-height: 640px;
+
   }
 }
 @media screen and (max-width: 768px) {
   .cover__backgraund  {
-    max-width:768px;
-    max-height: 480px;
+    max-width: 100%;
+
   }
 }
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 480px) {
   .cover__backgraund {
-    max-width: 320px;
-    max-height: 200px;
+    max-width: 100%;
+
+
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__backgraund {
+    max-width: 100%;
   }
 }

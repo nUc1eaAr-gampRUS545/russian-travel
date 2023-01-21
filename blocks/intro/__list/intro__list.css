@@ -12,7 +12,7 @@
 }
 @media screen and (max-width:1024px) {
   .intro__list {
-    padding: 34px 0px 89px 0px;
+    padding: 34px 0px 89px 48px;
   }
 }
 @media screen and (max-width:768px) {
@@ -22,12 +22,23 @@
     padding-bottom: 88px;
     padding-left: 24px;
   }
-
+}
+@media screen and (max-width:480px) {
+  .intro__list {
+    max-width:288px;
+    max-width:288px;
+    padding:34px 16px 64px 16px;
+  }
 }
 @media screen and (max-width:320px) {
   .intro__list {
-    max-width:288px;
-    padding:34px 16px 64px 16px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 1.5;
+    max-width:290px;
+    padding:34px 0 64px 16px;
   }
 
 }
