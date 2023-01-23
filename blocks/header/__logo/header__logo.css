@@ -2,10 +2,15 @@
   width: 176px;
   margin: 0;
 }
-@media screen and (max-width:320px){
-  .header__logo{
-    width:142px;
-height: 42px;
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
   }
-
+}
+@media screen and (max-width: 200px) {
+  .header__logo {
+    width: 100px;
+    height: auto;
+  }
 }

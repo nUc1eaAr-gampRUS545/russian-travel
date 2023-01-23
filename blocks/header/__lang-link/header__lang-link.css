@@ -24,3 +24,14 @@
     text-decoration-line: underline;
   }
 }
+@media screen and (max-width: 200px) {
+  .header__lang-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 111%;
+    text-align: right;
+    text-decoration-line: underline;
+  }
+}

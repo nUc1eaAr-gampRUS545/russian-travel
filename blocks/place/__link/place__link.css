@@ -20,5 +20,18 @@
     width: calc(100% - 32px);
     margin: 0 auto;
     margin-bottom: 30px;
+
+  }
+}
+@media screen and (max-width: 200px) {
+  .place__link {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 7px;
   }
 }
