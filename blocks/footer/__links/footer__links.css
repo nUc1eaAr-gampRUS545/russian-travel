@@ -16,18 +16,8 @@
   }
 
 }
-@media screen and (max-width:450px) {
-  .footer__links {
-    max-width:160px;
-    margin: 48px 0 16px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
 
-}
-@media screen and (max-width:320px) {
+@media screen and (max-width:600px) {
   .footer__links {
     max-width:186px;
     margin: 62px 0 16px 16px;
