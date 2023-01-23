@@ -18,7 +18,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 42px;
 line-height: 110%;
-width: 328px;
+max-width: calc(100% - 32px);
 
   }
 }
