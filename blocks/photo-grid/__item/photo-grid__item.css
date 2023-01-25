@@ -3,12 +3,21 @@
   min-height: 213px;
   object-fit: cover;
 }
+@media screen and (max-width: 1200px) {
+  .photo-grid__item  {
+  max-width: 100%;
+  object-fit: cover;}
+}
 @media screen and (max-width: 1024px) {
   .photo-grid__item  {
   max-width: 300px;
   min-height: 225px;
   object-fit: cover;}
-
+}
+@media screen and (max-width: 1000px) {
+  .photo-grid__item  {
+  max-width: 100%;
+  object-fit: cover;}
 }
 @media screen and (max-width: 850px) {
   .photo-grid__item  {
