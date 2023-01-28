@@ -12,25 +12,18 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__title  {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 42px;
-line-height: 110%;
-max-width:97%;
-
+  .place__title {
+    font-size: 42px;
+    line-height: 110%;
+    max-width: 97%;
   }
 }
 @media screen and (max-width: 320px) {
-  .place__title{
-    width:calc(100% - 32px);
-    margin:0 auto;
-    text-align: left;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
+  .place__title {
+    width: calc(100% - 32px);
+    margin: 0 auto;
     font-size: 32px;
     line-height: 35px;
-    margin-bottom: 32px;}
+    margin-bottom: 32px;
+  }
 }
