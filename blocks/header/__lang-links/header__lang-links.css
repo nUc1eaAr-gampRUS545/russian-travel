@@ -5,7 +5,18 @@
   display: flex;
   flex-direction: row;
 }
-.header__lang-links a:nth-of-type(2) {
+.header__lang-links li:nth-of-type(2) {
   text-decoration-line: none;
   margin-left: 18px;
+}
+@media screen and (max-width:1024px){
+  .header__lang-links{
+  margin: 20px 24px 0}
+}@media screen and (max-width:768px){
+  .header__lang-links{
+  margin: 20px 0 0 0;}
+}
+@media screen and (max-width:320px){
+  .header__lang-links{
+  margin: 15px 0 0 0;}
 }

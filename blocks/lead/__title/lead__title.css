@@ -37,9 +37,6 @@
   .lead__title {
     max-width:288px;
     margin: 0 16px;
-    font-size: 40px;
-    line-height: 110%;
-    text-align: center;
   }
 }
 @media screen and (max-width: 300px) {

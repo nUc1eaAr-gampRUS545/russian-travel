@@ -12,14 +12,19 @@
 }
 @media screen and (max-width: 1024px) {
   .place  {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 42.96875vw);
   grid-template-rows: auto;
-  max-width:928px;
-  margin: 62px auto 0 auto;
+  max-width:100%;
+  margin: 92px auto 0 auto;
   column-gap: 32px;
   row-gap: 48px;
   }
-
+.place:nth-of-type(2){
+  margin: 65px auto 0 auto;
+}
+.place:nth-of-type(3){
+   margin: 65px auto 0 auto;
+}
 .place:nth-of-type(4){
   margin: 81px auto 0 auto;
 }
@@ -30,17 +35,23 @@
 @media screen and (max-width: 768px) {
   .place  {
     max-width:100%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 44.2708333333vw);
     grid-template-rows: auto;
     margin: 44px auto 0 auto;
-    column-gap: 18px;
+    column-gap: 28px;
     row-gap: 48px;
+}
+.place:nth-of-type(2){
+  margin: 45px auto 0 auto;
+}
+.place:nth-of-type(3){
+  margin: 15px auto 0 auto;
 }
 .place:nth-of-type(4){
   margin: 42px auto 0 auto;
 }
 .place:nth-of-type(5){
-  margin: 45px auto 0 auto;}
+  margin: -5px auto 0 auto;}
 }
 @media screen and (max-width: 480px) {
   .place {
@@ -66,9 +77,9 @@
     margin: 46px auto 0 auto;
   }
   .place:nth-of-type(3){
-    margin: -8px auto 0 auto;}
+    margin: 17px auto 0 auto;}
   .place:nth-of-type(4){
-    margin: 17px auto 0 auto;
+    margin: 23px auto 0 auto;
   }
   .place:nth-of-type(5){
     margin: 49px auto 0 auto;}

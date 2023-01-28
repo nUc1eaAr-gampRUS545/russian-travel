@@ -14,7 +14,6 @@
   .footer{
     margin: 92px 24px 0 24px;
   }
-
 }
 @media screen and (max-width:600px) {
   .footer{
@@ -25,17 +24,9 @@
     justify-content: space-between;
     flex-wrap: nowrap;
   }
-
 }
-
 @media screen and (max-width:600px) {
   .footer{
     max-width: 240px;
-    margin:0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: nowrap;
   }
-
 }

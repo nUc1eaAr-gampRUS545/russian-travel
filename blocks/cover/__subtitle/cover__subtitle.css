@@ -1,5 +1,5 @@
 .cover__subtitle {
-  font-family: "Inter";
+  font-family: "Inter", "Arial ", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -8,15 +8,11 @@
   color: #ffffff;
   max-width: 360px;
   margin: 0;
+  z-index: 1;
 }
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    max-width: 560px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    max-width: 560px;
+    max-width: 360px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -24,14 +20,10 @@
     max-width:calc(100% - 32px);
     font-size: 14px;
     line-height: 114%;
-    text-align: center;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 200px) {
   .cover__subtitle {
-    max-width:calc(100% - 32px);
-    font-size: 14px;
-    line-height: 114%;
-    text-align: center;
+    font-size: 10px;
   }
 }

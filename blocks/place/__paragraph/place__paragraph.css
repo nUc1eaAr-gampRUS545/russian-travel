@@ -25,13 +25,8 @@
 }
 @media screen and (max-width:480px){
   .place__paragraph{
-  max-width:250px;
-  padding: 0 16px;
-  }
-}
-@media screen and (max-width:320px){
-  .place__paragraph{
-  max-width:100%;
-  padding: 0 16px;
+  max-width:calc(100% - 32px);
+  padding: 0;
+  margin:0 16px 25px 16px;
   }
 }

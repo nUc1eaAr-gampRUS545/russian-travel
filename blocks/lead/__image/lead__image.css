@@ -2,35 +2,25 @@
     margin: 64px auto 0 auto;
     max-width:100%;
     background-size: cover;
-    height: 615px;
     background-repeat: no-repeat;
     position: relative;
     box-sizing: border-box;
+    height: auto;
 }
 @media screen and (max-width: 1024px) {
   .lead__image  {
-    margin: 57px 0 0 0;
-    height: auto;
-    width: 100%;
-
+    margin: 57px auto 0 auto;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
   .lead__image  {
-    max-width: 100%;
-    height: auto;
     margin: 56px 0 0 0;
   }
 }
 @media screen and (max-width: 480px) {
   .lead__image {
     margin: 40px auto 0 auto;
-    max-width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
-  .lead__image {
-    margin: 40px auto 0 auto;
-    max-width: 100%;
-  }
-}
+

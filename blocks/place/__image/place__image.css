@@ -4,19 +4,19 @@
 }
 @media screen and (max-width: 1024px) {
   .place__image  {
-    max-width: 42.96875vw;
+    max-width: 100%;
 
   }
 }
 @media screen and (max-width: 768px) {
   .place__image  {
-    max-width: 44.2708333vw;
+    max-width:100%;
   }
 }
 @media screen and (max-width: 320px) {
   .place__image {
     max-width: 100%;
     min-height: auto;
-    margin-bottom: 35px;
+    margin-bottom: 28px;
   }
 }

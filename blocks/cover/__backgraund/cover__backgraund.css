@@ -1,34 +1,47 @@
 .cover__backgraund {
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  position: relative;
+  max-width: 1184px;
+  min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
-  max-width: calc(100% - 96px);
-  max-height: 740px;
-  object-fit: cover;
   background-size: cover;
-  height: auto;
+  background-position: center;
 }
-.cover__backgraund:hover .cover__overlay {
-  transition: 1s linear;
-  background-color: rgba(42, 44, 47, 0.8);
-  box-shadow: 0 0 80px 80px rgb(42, 44, 47) inset;
+.cover__backgraund::before {
+  content: "";
+  margin: 0 auto;
+  background-color: rgba(42, 44, 47, 0.3);
+  z-index: 1;
+  display:block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 @media screen and (max-width: 1024px) {
-  .cover__backgraund  {
-    max-width: 100%;
+  .cover__backgraund {
+    max-width: 1024px;
+    min-height: 640px;
   }
 }
 @media screen and (max-width: 768px) {
-  .cover__backgraund  {
-    max-width: 100%;
+  .cover__backgraund {
+    max-width: 768px;
+    min-height: 480px;
   }
 }
 @media screen and (max-width: 480px) {
   .cover__backgraund {
-    max-width: 100%;
+    max-width: 480px;
+    min-height: 250px;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__backgraund {
-    max-width: 100%;
+    max-width: 320px;
+    min-height: 200px;
   }
 }
