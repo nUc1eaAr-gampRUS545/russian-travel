@@ -1,5 +1,5 @@
 .intro__text {
-  max-width: 83%;
+  max-width: 690px;
   font-family: "Inter","Arial",sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -11,7 +11,7 @@
 @media screen and (max-width: 1024px) {
   .intro__text  {
     padding-left: 48px;
-    max-width: 100%;
+    max-width: 690px;
   }
 }
 @media screen and (max-width: 768px) {
