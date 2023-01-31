@@ -13,7 +13,6 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: repeat(2, 42.96875vw);
-    grid-template-rows: auto;
     max-width: 100%;
     margin: 92px auto 0 auto;
     column-gap: 32px;
@@ -36,7 +35,6 @@
   .place {
     max-width: 100%;
     grid-template-columns: repeat(2, 44.2708333333vw);
-    grid-template-rows: auto;
     margin: 44px auto 0 auto;
     column-gap: 28px;
     row-gap: 48px;
@@ -58,7 +56,6 @@
   .place {
     max-width: calc(100% - 48px);
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
     margin: 0 auto 44px auto;
     column-gap: 0px;
     row-gap: 0px;
