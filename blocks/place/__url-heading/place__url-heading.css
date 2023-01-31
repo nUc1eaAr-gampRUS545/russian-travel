@@ -1,5 +1,5 @@
 .place__url-heading {
-  font-family: 'Inter', 'Arial', sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -9,9 +9,10 @@
   color: #aaaaaa;
   text-transform: uppercase;
 }
-@media screen and (max-width:320px){
-  .place__url-heading{
-  width:calc(100% - 32px);
-  margin:0 auto;
-margin-bottom: 10px;}
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
 }

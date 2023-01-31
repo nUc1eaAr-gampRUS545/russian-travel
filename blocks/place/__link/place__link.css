@@ -6,13 +6,11 @@
   line-height: 122%;
   color: #ffffff;
   transition: opacity 0.5s linear;
-  transition: transform 0.5s linear;
   margin-top: 7px;
 }
 
 .place__link:hover {
   opacity: 0.8;
-  transform: scale(99%);
   text-decoration-line: none;
 }
 @media screen and (max-width: 320px) {
@@ -20,18 +18,10 @@
     width: calc(100% - 32px);
     margin: 0 auto;
     margin-bottom: 30px;
-
   }
 }
 @media screen and (max-width: 200px) {
   .place__link {
-    width: calc(100% - 32px);
-    margin: 0 auto;
-    margin-bottom: 30px;
-    font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  margin-top: 7px;
+    font-size: 10px;
   }
 }
