@@ -29,14 +29,13 @@
 @media screen and (max-width: 480px) {
   .intro__list {
     max-width: 288px;
-    padding: 34px 16px 64px 24px;
+    padding: 34px 0 64px 24px;
   }
 }
 @media screen and (max-width: 320px) {
   .intro__list {
     font-size: 12px;
     max-width: calc(100% - 16px);
-    padding-top: 33px;
-    padding-bottom:64px;
+    padding: 34px 0 64px 16px;
   }
 }
