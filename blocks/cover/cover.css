@@ -13,13 +13,12 @@ flex-direction: column;
 @media screen and (max-width: 768px) {
   .cover  {
     max-width:768px;
-    margin-top: 40px;
+    margin-top: 90px;
   }
 }
 @media screen and (max-width: 480px) {
   .cover {
     max-width:320px;
-    margin-top: 40px;
   }
 }
 

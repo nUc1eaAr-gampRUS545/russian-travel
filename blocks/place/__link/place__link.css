@@ -11,13 +11,12 @@
 
 .place__link:hover {
   opacity: 0.8;
-  text-decoration-line: none;
 }
 @media screen and (max-width: 320px) {
   .place__link {
     width: calc(100% - 32px);
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 }
 @media screen and (max-width: 200px) {

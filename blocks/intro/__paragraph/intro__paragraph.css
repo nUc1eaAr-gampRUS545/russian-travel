@@ -16,7 +16,5 @@
 @media screen and (max-width: 320px) {
   .intro__paragraph {
     max-width:100%;
-    margin:0;
-    padding: 0;
   }
 }
