@@ -1,6 +1,6 @@
 .place__image {
   width: 460px;
-  height: auto;
+  min-height: auto;
 }
 @media screen and (max-width: 1024px) {
   .place__image  {
@@ -8,7 +8,7 @@
 
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .place__image {
     min-height: auto;
     margin-bottom: 32px;

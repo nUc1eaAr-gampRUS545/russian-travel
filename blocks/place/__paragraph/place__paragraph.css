@@ -3,10 +3,11 @@
   max-width: 480px;
   display: inline-block;
   margin: 0;
-  font-style:400;
+  font-style:normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
+  box-sizing: border-box;
   color: #ffffff;
   margin-bottom: 26px;
 }
@@ -15,26 +16,36 @@
 }
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    max-width: 453px;
+    width: 103.5%;
   }
 }
 @media screen and (max-width:768px){
   .place__paragraph{
-    width: 352px;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 161%;
     margin-bottom: 25px;
   }
   .place__paragraph:last-child{
     margin:0;
 }}
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
   .place__paragraph{
-  max-width:288px;
-  padding: 0;
+    width: 100%;
+    line-height: 163%;
+    max-width: 288px;
+    margin:0 0 25px 0;
+  }
+  .place__paragraph:last-child{
+    margin:0;
+}}
+@media screen and (max-width:320px){
+  .place__paragraph{
+  max-width:calc(100% - 32px);
+  padding:0;
   margin:0 16px 25px 16px;
   }
   .place__paragraph:last-child{
     margin:0 16px 0 16px;
 }
 }
+

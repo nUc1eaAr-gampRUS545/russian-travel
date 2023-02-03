@@ -18,12 +18,11 @@
     max-width: 97%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .place__title {
     width: calc(100% - 32px);
-    margin: 0 auto;
+    margin: 0 0 0 16px;
     font-size: 32px;
-    line-height: 35px;
     margin-bottom: 32px;
   }
 }
